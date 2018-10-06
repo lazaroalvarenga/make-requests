@@ -1,0 +1,16 @@
+{
+  "name": "make-requests",
+  "version": "0.1.0",
+  "description": "Lightweight and simple HTTP client request that uses ES7 async functions with no dependecies.",
+  "main": "index.js",
+  "repository": "git@github.com:lazaroalvarenga/make-requests.git",
+  "author": "Lazaro Alvarenga <lazaroalvarenga@email.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "devDependencies": {
+    "nyc": "^13.0.1"
+  }
+}
