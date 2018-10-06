@@ -12,6 +12,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build": "babel ./src -d ./lib",
     "test": "nyc mocha"
   },
   "devDependencies": {
