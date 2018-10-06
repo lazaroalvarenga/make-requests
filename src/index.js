@@ -1,7 +1,8 @@
-import 'isomorphic-fetch';
+import "isomorphic-fetch";
+import "babel-polyfill";
 import makeRequest from './factories/request';
 
-const request = async (requestParams) => {
+export default async (requestParams) => {
   let response = {};
   try {
     response = await makeRequest(requestParams);
@@ -11,4 +12,4 @@ const request = async (requestParams) => {
   return response;
 };
 
-export default request;
+// export default request;

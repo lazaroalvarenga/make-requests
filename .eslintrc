@@ -1,9 +1,14 @@
 {
-    "extends": "airbnb-base",
-    "rules": {
-      "no-console": 0
-    },
-    "globals": {
-      "fetch": false
-    }
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "quotes": 0,
+    "comma-dangle": ["error", "only-multiline"]
+  },
+  "globals": {
+    "fetch": false
+  }
 }

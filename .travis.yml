@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 0.8
+  - 0.10
+notifications:
+  email:
+    recipients:
+      - lazaroalvarenga@email.com
+    on_success: change
+    on_failure: always
+script:
+  - npm run test
+  - npm run build
+branches:
+  only:
+    - master

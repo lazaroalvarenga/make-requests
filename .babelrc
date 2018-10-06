@@ -1,9 +1,16 @@
 {
-  "presets": [
-    ["es2015", {
-      "targets": {
-        "node": 10
-      }
-    }]
-  ]
+  "env": {
+    "development": {
+      "presets": ["es2015"],
+      "plugins": [
+        "add-module-exports"
+      ]
+    },
+    "production": {
+      "presets": ["es2015", "minify"],
+      "plugins": [
+        "add-module-exports"
+      ]
+    }
+  }
 }
