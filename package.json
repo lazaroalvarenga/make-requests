@@ -1,7 +1,7 @@
 {
   "name": "make-requests",
   "version": "0.1.0",
-  "description": "Lightweight and simple HTTP client request that uses ES7 async functions with no dependecies.",
+  "description": "📦 Simple HTTP client that uses ES7 async functions with no dependencies.",
   "main": "index.js",
   "repository": "git@github.com:lazaroalvarenga/make-requests.git",
   "bugs": {
@@ -15,6 +15,8 @@
     "test": "nyc mocha"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "nyc": "^13.0.1"
   }
 }
