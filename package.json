@@ -1,6 +1,6 @@
 {
   "name": "make-requests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "📦 Simple HTTP client that uses ES7 async functions.",
   "main": "lib/index.js",
   "repository": "git@github.com:lazaroalvarenga/make-requests.git",

@@ -1,5 +1,7 @@
-const example = require('./example');
+const sample = require("./sample");
+const post = require("./post");
 
 module.exports = {
-  example
+  sample,
+  post
 };
